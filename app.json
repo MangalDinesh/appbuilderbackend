@@ -12,9 +12,11 @@
     "env": {
         "APP_ID": {
             "description": "An Agora App ID. Here's how to get your app id: https://docs.agora.io/en/Agora%20Platform/token?platform=All%20Platforms#getappid"
+            "required": false
         },
         "APP_CERTIFICATE": {
             "description": "App Certificate is used by Agora to generate tokens for security. Here's how to get your app certificate: https://docs.agora.io/en/Agora%20Platform/token?platform=All%20Platforms#generate-a-token"
+        "required": false
         },
         "CLIENT_ID": {
             "description": "Client ID used for OAuth",
@@ -58,11 +60,11 @@
         },
         "SCHEME": {
             "description": "Contains project name. Used for deep links",
-            "required": true
+            "required": false
         },
         "ENABLE_OAUTH": {
             "description": "Boolean. If OAuth needs to be enabled",
-            "required": true
+           "required": false
         }
     }
 }
